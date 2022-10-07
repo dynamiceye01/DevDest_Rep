@@ -18,6 +18,7 @@ public class Solution {
                     return 0;
     
         }
+        System.out.println("Stack");
         if(stack.isEmpty())
             return 1;
         else 
