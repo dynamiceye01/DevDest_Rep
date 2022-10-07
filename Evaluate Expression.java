@@ -17,7 +17,7 @@ public class Solution {
     public int evalRPN(String[] A) {
         int n=A.length;
         Stack<Integer> st=new Stack<>();
-        for(int i=0;i<n;i++)
+        for(int i=0;i<A.length;i++)
         {
             String temp=A[i];
             if(temp.equals("+") ||temp.equals("-") ||temp.equals("*")|| temp.equals("/") )
